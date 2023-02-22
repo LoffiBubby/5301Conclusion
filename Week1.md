@@ -90,8 +90,17 @@
 
 #### 2.5 Effectiveness of Technical & Formal Controls
 <!-- todo -->
+* Technical controls **alone** is not enough.
+* In order to make technical controls well, it's necessary to consider constituting well thought baseline organisational controls.
+* The fatal result of the unsecure technical control and formal control is hoorible: customer data breach which usually caused by the human error.
+
 #### 2.6 Effectiveness of Technical & Formal & Informal Controls
 <!-- todo -->
+* Security awareness is a cost effective control.
+* Increased awareness should be supplemented with an ongoing education and training program.
+* As for firm, **Training and Awareness** are extremely important in developing trust.
+* Provide the environment of developing a common belief system.
+
 ### 3 Institutionalising Information Security
 
 * Organisational structure
@@ -118,10 +127,12 @@ True
 
 #### Sample answer
 
-1. Open access for outsiders
-   vulnerabilities
-2. Risk from internal employees
-   own computers
+1. Organizations/companies with internet to conduct their business allows them to reach out more customers internationally; collaborate with other business and communicate with other suppliers.
+2. Oragnizations enable outsiders to access their website, servers, user data etc.
+3. Consequently, the system is more vulnerable to outside attacks like spyware, virus, social engineering etc.
+4. The risk also comes from inside employees who have lower awareness of standard operation rules and other fomal rules.
+5. With personal devices, the core data and vulnerable exploits are more likely to be attack through undefined safe devices.
+6. Some people with no moral codes may sacrifice the benefit of companies.
 
 ### Exercise 2
 
@@ -140,6 +151,16 @@ True
 Agree
 Humans are often the weakest link in a security system. If we introduce rules to them without any awareness training or explanation, they are less likely to follow them, raising a security problem. Security rules are most effective when people understand the importance of following them. Informal controls help to improve this understanding.
 
+#### Sample answer
+
+Yes
+
+* Establishing security rules require costly **effort** and **resources**. Informal controls need to deal with non-technical aspects of the information system including norm, culture of the organization, human behavior, employees’ and leaders’ mindset, and awareness. They are differencies from organizations to oragnizations.
+* Moreover, **informal controls affect the effectiveness of both formal controls and technical controls.**
+* As a result, in order to  build security rules and successfully implement them to protect the information system, we need to fully understand the risks from all aspects of informal system and place **high importance** on the informal controls.
+* In addition, organizations also need to conduct ongoing education, training programs to educate employees and build their awareness/knowledge of the security rules and well accepted policies.
+
+
 ### Exercise 3
 >
 > Even though information system security goes way beyond the security of the technical edifice, applications and organization resources can only be protected by using the latest security gadgets.
@@ -155,11 +176,18 @@ True, it is a contradiction
 
 * Formal control and informal control are even more important
 * Many vuls cannot be solved by latest tools
-*
+
+#### Sample Answer
+* **Conclusion**: It's a contradiction itself.
+* Explain:
+  * Technology controls alone cannot protect the information system.
+  * Formal controls and informal controls are even more important which affect the effectiveness of technology controls.
+  * Example on the human factor exposes risk the organization’s information system security.
+  * Many vulnerabilities of information systems security cannot be solved by using latest technologies: need policies, security rules, regular education/training programs.
 
 ### Exercise 4
 >
-> Over engineering a solution or over bureaucratization of the formal systems have conse- quences for security and integrity of operations.
+> Over engineering a solution or over bureaucratization of the formal systems have consequences for security and integrity of operations.
 Comment?
 Hints:
 Over engineering a solution: technical solutions
@@ -179,3 +207,10 @@ Human naturn: find an easiest way if things ara complex
 Expose the information system to security threats
 Example: login process requires lengthly password:
     But people write it down to
+
+#### Sample answer
+
+* **Comments**:
+  * Complexity of the procedure/solution could lead to inefficiency.
+  * For security rules, if people do not follow complex rules for their convenience, it could expose the information system to security threats.
+  * Login process requires lengthy password. People tend to write it down to reuse.
