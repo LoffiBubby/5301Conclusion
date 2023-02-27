@@ -14,12 +14,16 @@
 * Following the formal system is important
 * Misinterpretation of the formal system can be detrimental
 * Computerisation of major information flow to bring about efficiencies and effectiveness is possible
+* Question: An org expands or shortens its hierarchy. What kind of control does it implement?
+  * Formal Answer
 
 #### 1.2 Technical Systems
 
 * Technology enabled / automated parts of the formal system
 * **Presupposes the existence of a formal system**
 * Could be problematic if formal system DO NOT exist, or technical system is different to formal system
+* Question: Which of the following is an example/scenario that technical control alone may not be effective?
+  * It is easier to find what has been written on paper than in a database
 
 #### 1.3 Informal Systems
 
