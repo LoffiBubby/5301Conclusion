@@ -223,6 +223,24 @@ Meaning:
 * 4 -> C
 * 5 -> A
 
+#### Sample Answer
+
+* **1 -> E:**
+  Confidentially is that data is available to authorized only.
+* **2 -> D:**
+  Data can be trusted, that we know that the data is accurate and complete, that it's trustworthy.
+* **3 -> B:**
+  Integrity is that the system will works as intended, system would perform the way we expect.
+* **4 -> C:**
+  Availability, system will be operating and accessible when needed.
+* **5 -> A:**
+  Assurance is  the level of confidence that controls the work, the place we're going to be doing various testing and audit; it‘s how we know that what we've put in place is actually working to protect our organizations and our environments.
+
+**NOTE**:
+
+* About Availability just says that the system is operating and accessible to authorize users. it *doesn't* mention how it working.
+* System Integrity is a commentary on how the system will work, that it would work as intended.
+
 ### Q2
 
 Which of the following terms is used to denote a potential cause of an unwanted incident, which may result in harm to a system or organization?
@@ -235,6 +253,12 @@ Which of the following terms is used to denote a potential cause of an unwanted 
 #### My Answer
 
 * 3
+
+#### Sample Answer
+**Threat**:
+The question provides the defination of a threat in ISO/IEC 27000;
+
+The term attcker could be used to describe a threat agent that is, in term, a threat, but use of this term is much restrictive.
 
 ### Q3
 
@@ -252,6 +276,15 @@ Which group causes the most risk of fraud and computer compromises? Explain?
   * Authorized access to sensitive data
   * inside knowledge, such as the organization's security protocols
 
+
+#### Sample Answer
+
+**Employees**
+
+* It's commonly stated that internal threats comprise 70%-80% of the overall threat to a company.
+* Employees have priviliege to access a wide range of company assets.
+* A lot of the damages caused by internal employees are brought about by mistakes and system misconfiguration.
+
 ### Q4
 
 To perform and review the risk analysis, the team members must come from different departments of the organizations. Which of the following is true? Explain why?
@@ -267,6 +300,13 @@ To perform and review the risk analysis, the team members must come from differe
 2. True and is the primary reason. Each department has their different risks, such as technical risks, financial risks which should be captured and evaluated comprehensively.
 3. Not sure, seems meaningless and not a valid reason
 4. I think external experts can be involved in performing the risk analysis, but not in the review process.
+
+**Sample Answer Complement:**
+(2) is true.
+
+* An analysis is only as good as the data that goes into it.
+* Each Department understands its own threats and resources, and many have possible solutions to specific threats that affect its part of company.
+* For instance, the team members may be part of management, application programmers, IT staff, system integrators...
 
 ### Q5
 
@@ -294,10 +334,14 @@ Vulnerabilities:
 
 #### Sample Answer
 
-* 1 -> C
-* 2 -> A
-* 3 -> B
-* 4 -> D
+* 1 -> C:
+  * Malicious software needs to be detected by using antivirus software, this might lead to virus infection.
+* 2 -> A：
+  * If the operation system is misconfiguration, users can gain access to some restricted area of the system. 
+* 3 -> B:
+  * If the company does not provide training program to employees, there's vulnerability of employees' mistakes.
+* 4 -> D:
+  * Attacker can abuse the poorly implemented application to conduct a buffer overflow. They can also try to conduct denial-of-services attack.
 
 ### Q6
 
@@ -306,6 +350,12 @@ For Internet of Things (IoT), what other aspects of security besides CIA should 
 #### My Answer
 
 Authorization: IoT devices should be authorized to perform specific actions, to prevent unauthorized access to sensitive data
+
+#### Sample Answer
+
+* Human Safety: Information security is rapidly including personal security and safety.
+* Authentication is also important that supports the CIA in IoT. Each device needs to reliably identify itself and prove that it can securely communicate with other devices in the system. This can be achieved using a combination of digital certificates and hardware-based anchor of trust. Strong user authentication should also be used to control user access.
+* Non-repudiation: This serves as irrefutable proof of the validity and origin of all data trans- mitted. Digitally signed documents and transactions using hardware security device can provide strong non-repudiation for the date and origin of transaction.
 
 ### Q7
 
@@ -321,6 +371,20 @@ Company A provides cloud computing services to their customers. To maintain the 
 * availability
   * Regular testing
 
+#### Sample Answer
+
+* Confidentiality: In order to keep the cloud computing confidential, company have to use encryption scheme to protect data, 
+  * Identity access management
+  * multi-factor authentication
+  * network firewalls.
+* Integrity: to protect data from unauthorized modification or deletion. There must be a system of permisions and logs that can demonstrate that tahere is no inappropriate access to customer data. 
+  * Multi-factor Authentication
+  * Version Control
+* Availability: Ensure that data continues to be available
+  * Auto-scaling
+  * Multi- ple Availability Zones
+  * using Route 53 with health checks, to detect the failure and automatic failover (switching to a redundant or standby computer server, system).
+
 ### Q8
 
 A server called Server1 is running Windows Server 2016. On Server1, a folder called Data is created and shared on the C drive. Within the Data folder, subfolders are created with each user’s name within the organization. Each person’s electronic paycheck is placed in each user’s folder. Later, you find out that John was able to go in and change some of the electronic paycheck amounts, while also deleting some of the electronic paychecks. Explain which one (or more) of the CIA components was not followed.
@@ -332,6 +396,12 @@ A server called Server1 is running Windows Server 2016. On Server1, a folder cal
 * Integrity
   * John can access, modify, and delete data without authorization. In addition, there is no backup system used to maintain integrity.
 
+#### Sample Answer
+
+* Confidentiality: because data is stored in a server which is accessible by all users. Furthermore, data is not encryptedThis violate the requirement of confidentiality that only authorised user can access the data.
+* Integrity: because anyone who can access the subfolders can see the data in clear and make change to it. The user can also delete the paychecks in each subfolder. This violate the requirement of integrity that data needs to be accurate and complete.
+* Availability: as some paychecks were deleted, they become unavailable when needed. Thus the availability requirement is not satisfied.
+
 ### Q9
 
 In banking industry, a range of online services are now available to assist customers with business banking needs. Discuss the potential security risks of online banking services?
@@ -340,3 +410,11 @@ In banking industry, a range of online services are now available to assist cust
 
 1. Employees are not well trainned to use online services
 2. The services via the internet may have vulnerabilities that could be used by attackers
+
+
+#### Sample Answer
+
+* Loss of data: Online theft of customer’s Access Code/User ID/Username, PIN/Password
+* Humaninteraction:CustomersaccidentallyaccesstheirOnlineBankingaccountsthrough hyperlinks in e-mails, pop-up windows, or search engines.
+* Inside and outside attacks: Virus attacks, hacking, unauthorized access and fraudulent transactions
+* Misuse of data: Sharing customer’s information with third parties;
