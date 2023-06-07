@@ -27,7 +27,7 @@ Answer: A
 * D. input, development, implementation
 * E. development, interpretation, implementation
 
-Answer: C and E
+Answer: C
 
 ## 4. Structure of responsibility in formal information system security defines
 
